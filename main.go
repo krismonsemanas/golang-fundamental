@@ -5,8 +5,11 @@ import "fmt"
 func main() {
 	// deklarasi variabel
 	var nama string = "Krismon"
-	var umur int
-	umur = 21
+	umur := 22
+
+	if umur >= 20 {
+		fmt.Println("Bentar lagi nikah woi....")
+	}
 	fmt.Println("Hello World, nama saya ", nama)
 	fmt.Println(umur)
 }
